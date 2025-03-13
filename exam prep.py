@@ -5,11 +5,11 @@
 # for i in range(100, 126, 2):
 #     print(i)
 
-number = 99
+# number = 99
 
-while number < 125:
-    print(number)
-    number = number + 1
+# while number < 125:
+#     print(number)
+#     number = number + 1
 
 
 # lists = [1, 30, 40, 50, 60, 70, 100, 920]
@@ -62,3 +62,30 @@ while number < 125:
 # selection runs varius conditions and execute the one that is true
 # repetition for loop & while loop it repets a block of code while a condition is true
 # data structures (lists, tuples, dictionaries, set)
+# list methods (len, max, min,append, extend, count, remove, reverse)
+# tuple is a collection of unordered and unchangable data
+
+
+# num = [3, 4, 5, 6, 7, 9, 2]
+# square = []
+
+# for x in num:
+#     square.append(x**2)
+    
+# print(square)
+
+passward = "icui4cu2"
+
+
+attempts = 3
+
+while attempts > 0:
+    login = input("what is the password: ")
+    
+    if login != passward:
+        print("try again")
+        attempts = attempts - 1
+        
+    else:
+        break
+    
